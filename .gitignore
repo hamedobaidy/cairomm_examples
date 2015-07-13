@@ -8,6 +8,13 @@
 *.gch
 *.pch
 
+*.in
+*.m4
+configure
+Makefile
+config.*
+missing
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
