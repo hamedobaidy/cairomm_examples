@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : cairomm_examples.cpp
+ Name        : image_surface.cpp
  Author      : Hamed Mohammdi
  Version     :
  Copyright   : GNU General Public Lisence V2
- Description : Hello World in C++,
+ Description : Cairomm, image surface example
  ============================================================================
  */
 
@@ -64,8 +64,8 @@ int main() {
 #else
 
 	std::cout
-			<< "You must compile cairo with PNG support for this example to work."
-			<< std::endl;
+	<< "You must compile cairo with PNG support for this example to work."
+	<< std::endl;
 
 #endif
 }
